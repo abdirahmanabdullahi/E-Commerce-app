@@ -4,7 +4,7 @@ import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 import 'package:t_store/utils/theme/theme.dart';
 
-import 'features/authentication/screens/onboarding_screen.dart';
+import 'features/authentication/screens/onboarding/onboarding_screen.dart';
 
 class App extends StatefulWidget {
   const App({super.key});

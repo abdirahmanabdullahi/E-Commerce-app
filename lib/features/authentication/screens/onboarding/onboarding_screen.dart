@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/features/authentication/screens/widgets/onboarding_dots_navigation.dart/onboarding_dots_navigator.dart';
-import 'package:t_store/features/authentication/screens/widgets/onboarding_next_button.dart';
-import 'package:t_store/features/authentication/screens/widgets/onboarding_skip/onboarding_page.dart';
-import 'package:t_store/features/authentication/screens/widgets/onboarding_skip/onboarding_kip.dart';
+import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_dots_navigation.dart/onboarding_dots_navigator.dart';
+import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_skip/onboarding_kip.dart';
+import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_skip/onboarding_page.dart';
 
-import '../../../utils/constants/image_strings.dart';
-import '../../../utils/constants/text_strings.dart';
-
-import '../controllers.onboarding/onboarding_controller.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../controllers.onboarding/onboarding_controller.dart';
 
 class Onboarding extends StatelessWidget {
   const Onboarding({super.key});
